@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar&family=Young+Serif&display=swap');
+
+/*font-family: 'Geostar', serif;
+font-family: 'Young Serif', serif; */
+
+
+body{
+    background-color: #1d1f2a;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Young Serif', serif
+}
+
+h1, h2{
+    font-family: 'Geostar', serif;
+}
+
+
+
+header{
+    background-color: #1d1f2a;
+    text-align: center;
+    padding: 30px;
+    text-align: center;
+}
+
+/*************NAV****************/
+nav ul {
+    list-style-type: none;
+    margin: 0px 281px;
+    padding: 0px;
+    background-color: #0e0d1c;
+    text-align: center;   
+}
+
+nav li{
+    display: inline-block;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+}
+  
+nav a, nav a:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    text-align: center;
+}
+    
+nav a:hover{
+    background-color: #7665d1;
+    color: #ffffff;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/*************SECTION****************/
+section{
+    background-color: #1d1f2a;
+    width:75vw;
+    padding: 20px;
+    margin: 60px auto;
+    overflow: hidden;
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+}
+
+i,b{
+    color: #ec6250;
+}
+.sectionimg img{
+    float: left;
+    text-align: left;
+    padding: 15px;
+}
+
+
+
+ul{
+    text-align: left;
+}
+
+/*************FOOTER AND LINKS****************/
+footer{
+    background-color: #7665d1;
+    color: white;
+    text-align: center;
+    padding: 20px
+}
+/************/
+a{
+color: rgb(255, 255, 255);
+}
+a:visited{
+    color: #7665d1;
+}
+    a:hover{
+        color: #ec6250;
+}
+    a:active{
+        color: rgb(255, 255, 255);
+}
