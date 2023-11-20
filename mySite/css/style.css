@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Space+Grotesk:wght@300&display=swap');
+
+/* font-family: 'Bree Serif', serif;
+font-family: 'Space Grotesk', sans-serif; */
+
+body{
+    background-image: url('../images/grid.png');
+    background-color: #7a9E7E;
+    color: #E8F1F2;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+
+header{
+    background-color: #3c7657;
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family:'Bree Serif', serif;
+    text-align: center;
+    text-decoration-line: underline;
+  text-decoration-style: dotted;  
+}
+
+h3 {
+    text-align: center;
+}
+
+.container{
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    box-shadow:  15px 20px #132b11;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: #3c7657; 
+    text-align: justify;
+}
+
+.container img{
+    padding: 15px
+}
+
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+  }
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+footer{
+    text-align: center;
+    color: #132b11;
+}
+
+
+/** Nav Bar **/
+nav li{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    text-align: center;
+    list-style-type: none;
+    background-color: #3c7657;
+    text-align: center;
+    box-shadow: 5px 15px #132b11;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+nav a, nav a:visited {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+    
+nav a:hover{
+    background-color: #84d69a;
+    color: #1a4726;
+}
+
+/**** links ******/
+a{
+    color: #6ced7f;
+    }
+    a:visited{
+        color: #6ced7f;
+    }
+        a:hover{
+            color: #a9faa8;
+    }
+        a:active{
+            color: #2da946;
+    }
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@300&display=swap');
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif */
+
+
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: #9aa4aa
+}
+
+
+header{
+    background-image: url('../images/CityHall.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.geoheader{
+    background-image: url('../images/hills.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 60vh;
+    text-align: center;
+}
+
+.peoheader{
+    background-image: url('../images/People.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.ecoheader{
+    background-image: url('../images/Farm.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.attheader{
+    background-image: url('../images/Concert.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(255, 255, 255);
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imgsize{
+    width: 60%;
+    margin: auto;
+}
+
+
+
+h1, h2 {
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+.container{
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.row{
+  padding: 10px 0px 20px;
+}
+
+
+.fade-in-text {
+    font-family: Inter;
+    font-size: 90px;
+    animation: fadeIn 2s;
+    color: #e7e7e7;
+    text-shadow: 2px 5px 2px rgb(0, 0, 0);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
+/* nav */
+  .navbar a:hover {
+    background-color: #0981c4;
+    padding: 20px;
+  }
+  
+
+
+.bg-navy{
+    background-color: #192b39;
+}
+
+.nav-link{
+    color: #ffc316 !important;
+}
+
+.navbar-brand{
+    color:#95D6Db !important;
+}
+
+/* links */
+
+
+a{
+    color: #ffc316;
+    }
+    a:visited{
+        color: #ffc316;
+    }
+        a:hover{
+            color: #95D6Db;
+    }
+        a:active{
+            color: #0981c4;
+    }
+
+
