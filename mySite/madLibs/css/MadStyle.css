@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Rock+Salt&display=swap');
+/** font-family: 'Playpen Sans', cursive;
+font-family: 'Rock Salt', cursive; **/
+
+header {
+    padding: 30px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#headerback {
+    background-image: url('../images/paper2.png');
+    background-size: 100%;
+    background-position-y: 89%
+}
+
+#image {
+    background-image: url('../images/Paper.jpg');
+    background-position: center;
+    background-position-y: 100%;
+    background-repeat: repeat-y;
+}
+
+body {
+    color: black;
+    background-image: url('../images/wood.jpg');
+    background-size: 100%;
+    background-position: center;
+    text-align: justify;
+    font-family: 'Playpen Sans', cursive
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+#zombieimg {
+    background-size: 20%;
+}
+
+#footerback {
+    background-image: url('../images/paper2.png');
+    background-size: 100%;
+    background-position-y: 89%
+}
+
+a {
+    color: #d62323;
+}
+
+a:visited {
+    color: #d62323;
+}
+
+a:hover {
+    color: #e98383;
+}
+
+a:active {
+    color: #851b1b;
+}
